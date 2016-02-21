@@ -1,5 +1,6 @@
 # 3DSpace_EECS351
-3D Space Construction
+February 2016
+Course: Introduction to Computer Graphics, Northwestern University, Evanston, IL
 
 # Project A: Generate 3D Objects
   To draw a Multi-purpose Vehicle with some windmills. This vehicle can be used as a crane to pull the heavy things. This vehicle can also be used as a tractor.What’s more,you can see the beautiful windmills when you press some keys to make the canopy away, which means rainbows come after the storm and people will get reward after your hardworking.
