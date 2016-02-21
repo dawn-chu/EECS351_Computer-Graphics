@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>WeihanChu projectA</title>
+  </head>
+
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+    Please use a browser that supports "canvas"
+    </canvas>
+     <p>
+      <div id= CurAngleDisplay></div>
+
+      New Angle: 
+    <!-- Next, make an HTML 'input' box element, a text-box 10 chars wide where users
+    can type in text.  Give it an ID name so that our JavaScript program
+    (e.g. ControlMulti.js, loaded near the end of this file) can access this
+    HTML element by name in 
+  --><input id='usrAngle' size=10> 
+  <button type="button" onClick='angleSubmit()'>Submit</button><BR> 
+  </p>
+<br>(User Instructions:<br>
+    when you ran this project. Please first tap any key on the keyboard twice to move the canopy away<br>
+    otherwise you will not see all the windmills<br>
+    1.click ++ccw to change speed, click run/stop to run/stop, click --ccw to change speed,<br>
+    2.drag the mouse in canvas to move the objects<br>
+    3.click the mouse in the canvas to move the objects in a certain direction<br>
+    4.press up-arrow to move objects up, press down-arrow to move objects down<br>
+    5.press left-arrow to move objects left, press right-arrow to move objects right<br>
+    6.press onther key to move the canopy away)
+<p>
+  <div id='Result'> here... </div>
+  </p>
+  <!--  Mouse click/drag amounts.  Look in 'console' for event reports;
+      the 'clear' button calls Javascript function 'clearDrag()'
+      whose sole purpose is to set global vars xMdragTot,yMdragTot ==0.0
+      Note we use these totals to rotate the triangle at upper left.
+  -->
+   <p>
+      <button type="button" onclick="moreCCW()">++ CCW</button>
+      <button type="button" onclick="stop()"> Run/Stop</button>
+      <button type="button" onclick="lessCCW()">-- CCW</button>
+		<! these commands create a push-button withlabels ++ CCW and -- CCW.
+			When users click the button, call the function name held in 'onclick'>
+    </p>
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix-mod.js"></script>
+    <script src="WeihanChu_ProjA.js"></script>
+  </body>
+</html>
