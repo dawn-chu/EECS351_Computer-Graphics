@@ -1,5 +1,5 @@
 # 3DSpace_EECS351
-February 2016
+February 2016\\
 Course: Introduction to Computer Graphics, Northwestern University, Evanston, IL
 
 # Project A: Generate 3D Objects
