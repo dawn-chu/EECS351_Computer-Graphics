@@ -3,7 +3,7 @@ _February 2016_ <br/>
 _Course: Introduction to Computer Graphics, Northwestern University, Evanston, IL_
 
 ## Project A: Generate 3D Objects
-**[View It Here](http://htmlpreview.github.io/?https://github.com/weihanchu/3DSpace_EECS351/blob/master/WeihanChu_ProjA.html)** <br/>
+**[View It Here](http://htmlpreview.github.io/?https://github.com/weihanchu/EECS351_Computer-Graphics/blob/master/WeihanChu_ProjA.html)** <br/>
   Your mission in Project A is to use WebGL and HTML-5 to: <br/>
   a) Draw several moving, turning, jointed colored shapes with openGL’s basic drawing primitives(various forms of points, lines and triangles, etc.) using vertex buffer objects full of 3D vertex attributes. <br/>
   b) Use a modelMatrix-like matrix stack to transform those shapes them interactively (see ‘stretched robot’ code) <br/>
