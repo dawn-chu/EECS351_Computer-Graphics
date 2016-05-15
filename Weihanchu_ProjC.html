@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Weihanchu_ProjC</title>
+    <style type="text/css">
+      #Instructions{
+        position: absolute;
+        left: 10px;
+         top: 10px;
+         color: blue;
+      }
+        </style>
+  </head>
+  <body onload="main()">
+    <div id="Instructions">
+        User Instructions:<br>
+          1.Use Up/Down/Right/Left keys to move the camera up/down/right/left<br>
+          2.Use W/S/D/A keys to move the camera up/down/right/left<br>
+          3.Use space to change light<br>
+          4.Use p to change shading methods<br>
+          5.Use q,e to switch light<br>
+          6.Use z/x/c/v/b/n/j/k/l to change the R,G,B value for ambient,diffuse,specular <br>
+            </div>
+    <canvas id="webgl" width="600" height="600">
+    Please use a browser that supports "canvas"
+    </canvas> 
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix-mod.js"></script>
+    <script src="../lib/cuon-matrix-quat.js"></script>
+    <script src="materials_Ayerdi.js"></script>
+    <script src="lights-JT.js"></script>
+    <script src="Weihanchu_ProjC.js"></script>
+  </body>
+</html>
