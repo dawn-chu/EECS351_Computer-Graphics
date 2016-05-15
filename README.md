@@ -4,8 +4,10 @@ _Course: Introduction to Computer Graphics, Northwestern University, Evanston, I
 
 ## Project A: Generate 3D Objects
 **[View It Here](http://htmlpreview.github.io/?https://github.com/weihanchu/3DSpace_EECS351/blob/master/WeihanChu_ProjA.html)** <br/>
-  To draw a Multi-purpose Vehicle with some windmills. This vehicle can be used as a crane to pull the heavy things. This vehicle can also be used as a tractor.What’s more,you can see the beautiful windmills when you press some keys to make the canopy away, which means rainbows come after the storm and people will get reward after your hardworking.
-
+  Your mission in Project A is to use WebGL and HTML-5 to: <br/>
+  a) Draw several moving, turning, jointed colored shapes with openGL’s basic drawing primitives(various forms of points, lines and triangles, etc.) using vertex buffer objects full of 3D vertex attributes. <br/>
+  b) Use a modelMatrix-like matrix stack to transform those shapes them interactively (see ‘stretched robot’ code) <br/>
+  c) Ensure that interesting parts of your on-screen image move continuously without user input (animation) and d) Make some parts of at least one jointed object move smoothly in response to keyboard and mouse inputs <br/>
 
 ## Project B: Explore 3D Space
 **[View It Here](http://htmlpreview.github.io/?https://github.com/weihanchu/3DSpace_EECS351/blob/master/Weihanchu_ProjB.html)** <br/>
