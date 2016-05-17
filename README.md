@@ -1,5 +1,5 @@
 # EECS351_Computer Graphics
-_February 2016_ <br/>
+_Winter 2016_ <br/>
 _Course: Introduction to Computer Graphics, Northwestern University, Evanston, IL_
 
 ## Project A: Generate 3D Objects
